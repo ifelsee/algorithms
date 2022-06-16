@@ -3,6 +3,7 @@
 # verimli kullanımı için bir ton optimizasyon yapılması gerek. üşengeç herifin önde gideni olduğum için
 # string olarak işledim veriyi...
 
+
 import random
 from typing import List
 
@@ -11,10 +12,8 @@ random.shuffle(l1)
 
 def sort(l1: List[int] = l1 )-> List[int]:
 
-    if type(l1[0]) == int : 
-        maxl: int = len(str(max(l1)))
-        l1: List[str] = [str(i) for i in l1]
-    else: return  
+    maxl: int = len(str(max(l1)))
+    l1: List[str] = [str(i) for i in l1]
 
     def d(l1: List[str] = l1) -> List[List[str]]:
         temp: List[List] = [[] for _ in range(maxl)]
@@ -44,4 +43,5 @@ def sort(l1: List[int] = l1 )-> List[int]:
 
 
 print(sort())
+
 
