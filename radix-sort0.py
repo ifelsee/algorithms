@@ -1,7 +1,7 @@
 # kafayı kırarak yazdığım Radix Sort algoritması tarzı bir şey...
 # amerikayı tekrardan kendi tarzımla keşvettim için ne kadar iyi ne kadar kötü bir yaklaşım bilemiyorum.
 # verimli kullanımı için bir ton optimizasyon yapılması gerek. üşengeç herifin önde gideni olduğum için
-# string olarak işledim veriyi................a.sdfasd............asdf.as..
+# string olarak işledim veriyi...
 
 
 import random
