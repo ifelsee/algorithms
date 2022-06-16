@@ -16,7 +16,7 @@ def sort(l1: List[int] = l1 )-> List[int]:
         l1: List[str] = [str(i) for i in l1]
     else: return  
 
-    def d(l1=l1):
+    def d(l1: List[str] = l1) -> List[List[str]]:
         temp: List[List] = [[] for _ in range(maxl)]
         for i in l1: temp[len(i)-1].append(i)
 
@@ -26,7 +26,7 @@ def sort(l1: List[int] = l1 )-> List[int]:
     l1 = d()
 
 
-    def f(x, dig ):
+    def f(x: List[str], dig: int):
         pars: List[List] = [[] for _ in range(10)]
         for m in range(dig):
 
